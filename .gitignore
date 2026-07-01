@@ -214,5 +214,24 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Stable Diffusion local/private artifacts
+data/personal/
+data/Itay/
+data/Itay_train/
+data/Itay_reference/
+outputs/
+checkpoints/
+models/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Local Hugging Face and experiment caches
+.cache/
+huggingface/
+wandb/
+.DS_Store
+
 # Streamlit
 .streamlit/secrets.toml
